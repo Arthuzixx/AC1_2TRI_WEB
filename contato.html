@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+	<link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing Script" rel="stylesheet">
+</head>
+<body>
+
+    <header class="main-header">
+        <h2 class = "titulo-header"> A&V Viagens  </h2>
+	
+    <nav class="navegacao" >
+        <ul class = "nav-lista">
+            <li class="nav-lista-item">
+                <a href="index.html" class="nav-link"> Sobre nós </a> 
+            </li>
+
+            <li class="nav-lista-item">
+                <a href="destinos.html" class="nav-link"> Destinos  </a>
+             </li>
+
+            <li class="nav-lista-item">
+                <a href="contato.html" class="nav-link"> Contato </a> 
+            </li>
+
+         </ul>
+    </nav>
+    <a href="index.html"><img class="logo" src="IMAGENS/logo_clara-removebg-preview.png"/> </a>
+    </header>   
+	<br>
+	
+	<section>
+
+    <form action="XX" method="post">
+
+		<fieldset class="grupo">
+			<legend>Cadastro</legend>
+			<br>
+			<label class="tit" for="nome">Nome:</label> <br>
+			<input type="text" name="Nome" id="nome" size="50px" required placeholder="Nome completo" />
+			<br>
+			<label class="tit" for="dataNascimento">Data da viagem:</label> <br>
+			<input type="date" name="dataNascimento" id="dataNascimento" placeholder=" XX/XX/XX" />
+			<br>		
+			<label class="tit" for="passageiros">Quantidade de passageiros:</label> <br>
+			<input type="radio" name="passageiros" value="1" id="1 Passageiro" /><label for="1 passageiro">1 </label>
+			<input type="radio" name="passageiros" value="2" id="2 Passageiros" /><label for="2 passageiros">2 </label>
+			<input type="radio" name="passageiros" value="3" id="3 Passageiros" /><label for="3 passageiros">3 </label>
+			<input type="radio" name="passageiros" value="4+" id="4+ Passageiros" /><label for="4+ passageiros">4 ou mais</label>
+		    <br> 
+			<label class="tit" for="contato">Contato:</label> <br> 
+			<input type="checkbox" name="telefone" id="telefone" /><label for="telefone">Telefone</label>
+			<input type="checkbox" name="email" id="email" /><label for="email">E-mail</label>
+			<input type="text" name="contato" id="contato" />
+		    <br>			
+			<label class="tit" for="menor">Há menores de idade?</label> <br> 
+			<input type="radio" name="menor" id="menor"><label for="menor">Sim</label>
+			<input type="radio" name="menor" id="menor"><label for="menor">Não</label>
+			<br><br>
+			
+			<label class="tit" for="destino">Destino:</label> <br>
+			<select name="destino" id="destino"> <br>
+				<option value="orlando">Orlando</option>
+				<option value="paris">Paris</option>
+				<option value="novayork">Nova York</option>
+				<option value="roma">Roma</option>
+				<option value="tokyo">Tokyo</option>
+				<option value="grecia">Grecia</option>
+				<option value="india">India</option>
+			</select><br>
+			<label class="tit" for="Observação">Observação:</label> <br>
+			<textarea name="Observação" cols="60" rows="2" id="Observação"></textarea>
+			<br>
+		    <br>			
+			<input name="btnEnvio" type="submit" value="Enviar" />			
+			
+			&nbsp;	&nbsp; &nbsp;&nbsp;&nbsp;		
+			<input name="btnReset" type="reset" value="Limpar" />
+			
+		</fieldset>
+	</form>
+	</section>
+<br>
+<footer class="main-footer" >
+	<section  class="foot-section" >
+		<h1>Contato</h1>
+		<p>(xx) xxxx-xxxx</p>
+		<p>aev.viagens@example.com</p>
+	</section>
+	<section  class="foot-section">
+		<h1>Endereço</h1>
+		<p>Avenida x</p>
+		<p>São Paulo, SP</p>
+	</section>
+	<section  class="foot-section">
+		<h1>Funcionamento</h1>
+		<p>Dia da Semana </p>
+		<p>Horário </p>
+	</section>
+	<br>
+	<br>
+	<p id = "copyright">Copyright &copy; 2024 Blog. All Rights Reserved</p>
+</footer>
+</body>
+
+</html>
+</body>
+</html>
